@@ -40,10 +40,18 @@ h1, h2, h3, h4, h5, h6 {
     color: inherit;
 }
 
-.header__btn{
+.header__btn {
     background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
     font-size: 1.6rem;
     line-height: 150%;
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    transition: background-position .5s;
+    border: 0;
+}
+
+.header__btn:hover {
+    background-position: 0 0;
 }
 
 .header {
@@ -132,10 +140,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main__btn {
-    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
     font-size: 1.6rem;
     font-weight: 700;
     line-height: 150%;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    transition: background-position .5s;
+    border: 0;
+}
+
+.main__btn:hover {
+    background-position: 0 0;
 }
 
 .main__container {
@@ -345,9 +361,17 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     font-size: 16px;
     line-height: 150%;
-    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
     border-radius: 50px;
     margin-bottom: 40px;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    transition: background-position .5s;
+    border: 0;
+}
+
+.order__btn:hover {
+    background-position: 0 0;
 }
 
 .contacts {
