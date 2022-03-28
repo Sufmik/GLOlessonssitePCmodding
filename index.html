@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/normalize.css">
     <link rel="stylesheet" href="CSS/style.css">
-    <script src="js/main.js" defer></script>
+    <script src="js/modal.js" defer></script>
     <title>Сборка ПК</title>
 </head>
 
@@ -179,6 +179,27 @@
             </div>
         </div>
     </section>
+
+    <!--modal window-->
+    <form action="#" class="modal">
+        <div class="model__wrap">
+            <div class="close__btn">
+                <img src="img/close_cross_icon_128690.svg" alt="close">
+            </div>
+            <h3 class="modal__header">Заявка на сборку ПК</h3>
+            <p>Мы свяжемся с вами, чтобы обсудить детали заказа</p>
+            <div class="input">
+                <input type="text" name="name" class="modal_input" placeholder="Как вас зовут">
+            </div>
+            <div class="input">
+                <input type="tel" name="phone" class="modal_input" placeholder="Номер телефона">
+            </div>
+            <div class="input">
+                <input type="email" name="email" class="modal_input" placeholder="E-mail">
+            </div>
+            <button type="submit" class="btn button__submit">Отправить</button>
+        </div>
+    </form>
 
 </body>
 
