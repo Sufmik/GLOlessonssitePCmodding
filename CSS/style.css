@@ -485,3 +485,9 @@ input {
     top: 20px;
     right: 20px;
 }
+
+.test:hover {
+    transform: rotate(180deg);
+    transition-duration: 0.6s;
+    transition: 0.6s;
+}
