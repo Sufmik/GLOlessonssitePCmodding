@@ -486,7 +486,7 @@ input {
     right: 20px;
 }
 
-.test:hover {
+.close__btn:hover {
     transform: rotate(180deg);
     transition-duration: 0.6s;
     transition: 0.6s;
